@@ -1,34 +1,37 @@
 
 body{
- margin:0;
- line-height:1,5
-} /*   
-.{  
- margin: 0;
- padding:0;
- outline: none;
- text-decoration: none;
- box-sizing: border-box;
+         background-color:burlywood;
+         
+        }
+.igs-max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
 }
-::before,::after{
-    box-sizing: border-box;
-}*/
-.igs-home-section-background{
-    background-color:#f2f2fc ;
-    min-height: 100vh;
+.igs-nabav {
+    width: 100%;
+    background-color: brown;
+    text-decoration: none;
 }
-.igs-main-content-padding{
-    padding-left: 270px ;
-    display: block;
-}
-.igs-ASIDE{
-    width: 270px;
-    background-color: red;
-    position:fixed;
-    height: 100%;
-    left: 0;
-    top:0;
-    z-index: 10;
+p{
+    text-align: right;
 }
 
 
+ .igs-intro{
+    display: -ms-flexbox;
+    text-align: right;
+    flex-direction: column;
+ }
+ .igs-discours{
+       text-align: center;
+ }
+ .igs-titre{ 
+    text-align: center;
+    
+ }
+ 
+ 
+ 
+ 
+ 
