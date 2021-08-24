@@ -1,37 +1,119 @@
 
 body{
-         background-color:burlywood;
+         background-color:#111827;
          
         }
 .igs-max-width{
     max-width: 1300px;
-    padding: 0 80px;
+}
+.igs-margin-auto {
     margin: auto;
+}
+.igs-padding-1 {
+    padding: 0 80px;
 }
 .igs-nabav {
     width: 100%;
     background-color: brown;
     text-decoration: none;
 }
-p{
+
+.igs-text-right {
     text-align: right;
 }
-
-
- .igs-intro{
-    display: -ms-flexbox;
-    text-align: right;
-    flex-direction: column;
- }
- .igs-discours{
-       text-align: center;
- }
- .igs-titre{ 
+.igs-text-center {
     text-align: center;
-    
+}
+.igs-width {
+    width: 190px;
+}
+.igs-float- {
+    float: left;
+}
+ .igs-intro{
+    display:-ms-flexbox;
+    text-align:right;
+    flex-direction:column
  }
+ .igs-text-center{
+     text-align: center;
+ }
+ h2{
+     text-align: center;
+     font-size: 270%;
+ }
+ .fall {
+    border: 10px ;
+    padding: .5rem;
+}
+.fall p {
+    
+    
+    
+}
+    h3{
+        text-align: center;
+        font-size: 270%;
+    }
  
- 
- 
- 
- 
+ .igs-services{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+ }
+  h4{
+      text-align: center;
+      font-size:270% ;
+  }
+ .igs-center{  
+     text-align:center ;
+     font-size: 270%;
+     background-color:yellow;
+     color:read-write
+ }
+ .igs-rouge{  
+    text-align:center ;
+    font-size: 270%;
+    background-color:rgb(255, 0, 64);
+    color:read-write
+ }
+
+  .igs-vert{  
+        text-align:center ;
+        font-size: 270%;
+        background-color:rgb(0, 255, 0);
+        color:read-write
+  }
+  .igs-jaune{  
+    text-align:center ;
+    font-size: 270%;
+    background-color:rgb(225, 0, 255);
+    color:read-write
+  }
+  .igs-bleu{  
+    text-align:center ;
+    font-size: 270%;
+    background-color:rgb(0, 195, 255);
+    color:read-write
+  }
+  .igs-text-center{
+      text-align: center;
+  }
+  #igs1{
+      width: 1330px;
+      height: 300px;
+      background-color: darkgoldenrod;
+  }
+  .igs{
+      width: 200;
+      height: 100;
+  }
+  .igs-text{
+      text-align-last: right;
+
+  }
+  #igs-form{
+      float: right;
+  }
+   
